@@ -22,3 +22,5 @@ This repository is public: scenery only, no people, no home addresses.
 | Amery, WI | Amery (45.3069, -92.3624), lake country | 25 mi | ✓ | ✓ |
 | Brothertown–Pipe, WI | Brothertown (43.968, -88.309), Lake Winnebago | 20 mi | ✓ | ✓ |
 | Fort Myers, FL | Edison and Ford Winter Estates (26.6343, -81.8798) | 25 mi | ✓ | ✓ |
+
+The app's privacy policy is in [PRIVACY.md](PRIVACY.md).
