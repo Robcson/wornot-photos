@@ -19,5 +19,6 @@ This repository is public: scenery only, no people, no home addresses.
 | St. Louis, MO | Gateway Arch (38.6247, -90.1848) | 25 mi | ✓ | ✓ |
 | Chicago, IL | Millennium Park (41.8826, -87.6226) | 30 mi | ✓ | ✓ |
 | Minneapolis–St. Paul, MN (to Hudson, WI) | Spoonbridge and Cherry (44.9697, -93.2890) | 30 mi | ✓ | ✓ |
+| Amery, WI | Amery (45.3069, -92.3624), lake country | 25 mi | ✓ | ✓ |
 | Brothertown–Pipe, WI | Brothertown (43.968, -88.309), Lake Winnebago | 20 mi | ✓ | ✓ |
 | Fort Myers, FL | Edison and Ford Winter Estates (26.6343, -81.8798) | 25 mi | ✓ | ✓ |
