@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "areas": [
+    { "id": "st-louis", "name": "St. Louis", "latitude": 38.6247, "longitude": -90.1848, "radiusMiles": 25, "day": "st-louis/day.jpg", "night": "st-louis/night.jpg" },
+    { "id": "chicago", "name": "Chicago", "latitude": 41.8826, "longitude": -87.6226, "radiusMiles": 30, "day": "chicago/day.jpg", "night": "chicago/night.jpg" },
+    { "id": "minneapolis", "name": "Minneapolis–St. Paul", "latitude": 44.9697, "longitude": -93.2890, "radiusMiles": 30, "day": "minneapolis/day.jpg", "night": "minneapolis/night.jpg" },
+    { "id": "brothertown", "name": "Brothertown–Pipe", "latitude": 43.968, "longitude": -88.309, "radiusMiles": 20, "day": "brothertown/day.jpg", "night": "brothertown/night.jpg" },
+    { "id": "fort-myers", "name": "Fort Myers", "latitude": 26.6343, "longitude": -81.8798, "radiusMiles": 25, "day": "fort-myers/day.jpg", "night": "fort-myers/night.jpg" }
+  ]
+}
