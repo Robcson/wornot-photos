@@ -23,9 +23,14 @@ to these public weather services, the same way a web browser would:
 - Iowa Environmental Mesonet and Esri: radar and map pictures for the area shown
 - Google (through Android's geocoder): place search and ZIP codes
 
+For places outside the US, and for trip dates beyond the National Weather Service's 7-day forecast,
+the app asks Open-Meteo (open-meteo.com) for the forecast and past weather at that saved place's
+coordinates.
+
 To put the forecasters' notes into plain English, the app sends the National Weather Service's
-public forecast discussion for the area to Google's Gemini API. That request contains only the
-NWS's published text, not your location or anything about you.
+public forecast discussion for the area to Google's Gemini API. For a trip, it sends Gemini the
+place's name, the trip dates and the weather numbers above, to write a short note on what to
+expect. These requests contain nothing about you, and never your current location.
 
 Each service handles requests under its own privacy policy. The app sends nothing else about you.
 
