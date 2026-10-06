@@ -1,6 +1,6 @@
 # Weather or Not: privacy policy
 
-_Last updated: October 5, 2026_
+_Last updated: October 6, 2026_
 
 Weather or Not ("WorNot") is a weather app for Android, made for personal use by a family. It has no
 accounts, no ads, no analytics and no tracking, and its developer runs no servers that receive your
@@ -22,6 +22,10 @@ to these public weather services, the same way a web browser would:
 - U.S. EPA and AirNow: UV index and air quality
 - Iowa Environmental Mesonet and Esri: radar and map pictures for the area shown
 - Google (through Android's geocoder): place search and ZIP codes
+
+To put the forecasters' notes into plain English, the app sends the National Weather Service's
+public forecast discussion for the area to Google's Gemini API. That request contains only the
+NWS's published text, not your location or anything about you.
 
 Each service handles requests under its own privacy policy. The app sends nothing else about you.
 
