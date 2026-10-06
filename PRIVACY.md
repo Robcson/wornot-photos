@@ -21,15 +21,14 @@ to these public weather services, the same way a web browser would:
 - Google Air Quality and Pollen APIs: air quality and pollen
 - U.S. EPA and AirNow: UV index and air quality
 - Iowa Environmental Mesonet and Esri: radar and map pictures for the area shown
-- Google (through Android's geocoder): place search and ZIP codes
-
-For places outside the US, and for trip dates beyond the National Weather Service's 7-day forecast,
-the app asks Open-Meteo (open-meteo.com) for the forecast and past weather at that saved place's
-coordinates.
+- Open-Meteo (open-meteo.com): days 8 to 16 of the forecast everywhere, all the weather for places
+  outside the US (including where you are, when you're abroad), and past weather for a trip's
+  "typical" weather
+- Google (through Android's geocoder): place search, ZIP codes, and town names abroad
 
 To put the forecasters' notes into plain English, the app sends the National Weather Service's
 public forecast discussion for the area to Google's Gemini API. For a trip, it sends Gemini the
-place's name, the trip dates and the weather numbers above, to write a short note on what to
+saved place's name, the trip dates and its weather numbers, to write a short note on what to
 expect. These requests contain nothing about you, and never your current location.
 
 Each service handles requests under its own privacy policy. The app sends nothing else about you.
