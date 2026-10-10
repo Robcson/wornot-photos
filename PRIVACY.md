@@ -26,8 +26,9 @@ to these public weather services, the same way a web browser would:
   "typical" weather
 - Google (through Android's geocoder): place search, ZIP codes, and town names abroad
 - Windy.com and the Illinois and Minnesota Departments of Transportation (511mn.org): public webcams
-  near the place shown (Missouri's highway cameras come from one MoDOT list, and park webcams from
-  one National Park Service list, neither of which contains information about you)
+  near the place shown (the camera lists from MoDOT, Florida 511 and the National Park Service are
+  each fetched whole and contain no information about you; Florida 511 is then asked for the
+  pictures and names of the cameras shown)
 
 To put the forecasters' notes into plain English, the app sends the National Weather Service's
 public forecast discussion for the area to Google's Gemini API. For a trip, it sends Gemini the
