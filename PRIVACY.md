@@ -1,6 +1,6 @@
 # Weather or Not: privacy policy
 
-_Last updated: October 6, 2026_
+_Last updated: October 10, 2026_
 
 Weather or Not ("WorNot") is a weather app for Android, made for personal use by a family. It has no
 accounts, no ads, no analytics and no tracking, and its developer runs no servers that receive your
@@ -25,6 +25,8 @@ to these public weather services, the same way a web browser would:
   outside the US (including where you are, when you're abroad), and past weather for a trip's
   "typical" weather
 - Google (through Android's geocoder): place search, ZIP codes, and town names abroad
+- Windy.com and the Illinois Department of Transportation: public webcams near the place shown
+  (Missouri's highway cameras come from one MoDOT list that contains no information about you)
 
 To put the forecasters' notes into plain English, the app sends the National Weather Service's
 public forecast discussion for the area to Google's Gemini API. For a trip, it sends Gemini the
