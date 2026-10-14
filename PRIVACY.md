@@ -1,6 +1,6 @@
 # Weather or Not: privacy policy
 
-_Last updated: October 10, 2026_
+_Last updated: October 14, 2026_
 
 Weather or Not ("WorNot") is a weather app for Android, made for personal use by a family. It has no
 accounts, no ads, no analytics and no tracking, and its developer runs no servers that receive your
@@ -29,6 +29,13 @@ to these public weather services, the same way a web browser would:
   near the place shown (the camera lists from MoDOT, Florida 511, Wisconsin 511, New York 511 and
   the National Park Service are each fetched whole and contain no information about you; the
   cameras' own servers are then asked for the pictures and video of the cameras shown)
+
+For a road or bike trip you plan in the app, the trip's start and end points for each day are sent
+to OpenRouteService (openrouteservice.org) to find the route, and points along that route to
+Open-Meteo for the weather there. Trips are stored only on your phone.
+
+Webcams, AI summaries and road & bike trips can each be turned off in the app (Places → settings
+→ Features & data); when off, they send nothing.
 
 To put the forecasters' notes into plain English, the app sends the National Weather Service's
 public forecast discussion for the area to Google's Gemini API. For a trip, it sends Gemini the
