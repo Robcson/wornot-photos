@@ -21,6 +21,7 @@ to these public weather services, the same way a web browser would:
 - Google Air Quality and Pollen APIs: air quality and pollen
 - U.S. EPA and AirNow: UV index and air quality
 - Iowa Environmental Mesonet and Esri: radar and map pictures for the area shown
+- NOAA (nowCOAST and the National Weather Service map services): map layers you switch on, such as watches and warnings or rain totals, for the area shown
 - Open-Meteo (open-meteo.com): days 8 to 16 of the forecast everywhere, all the weather for places
   outside the US (including where you are, when you're abroad), and past weather for a trip's
   "typical" weather
