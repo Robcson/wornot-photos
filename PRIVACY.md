@@ -26,9 +26,10 @@ to these public weather services, the same way a web browser would:
   outside the US (including where you are, when you're abroad), and past weather for a trip's
   "typical" weather
 - Google (through Android's geocoder): place search, ZIP codes, and town names abroad
-- Windy.com and the Illinois and Minnesota Departments of Transportation (511mn.org): public webcams
-  near the place shown (the camera lists from MoDOT, Florida 511, Wisconsin 511, New York 511 and
-  the National Park Service are each fetched whole and contain no information about you; the
+- Windy.com and the Illinois Department of Transportation: public webcams near the place shown
+  (the camera lists from MoDOT, Florida 511, Wisconsin 511, the 511 sites of New York, Minnesota,
+  Iowa, Indiana, Nebraska, Kansas and San Diego, and the National Park Service are each fetched
+  whole and contain no information about you; the
   cameras' own servers are then asked for the pictures and video of the cameras shown)
 
 For a road or bike trip you plan in the app, the trip's start and end points for each day are sent
